@@ -37,21 +37,27 @@ The deployed app is available here: [Render Link](https://real-estate-price-pred
 
 ## 🚀 Installation
 
-### 1️⃣ Clone the repository
-
+1️⃣ Clone the repository
 ```bash
+
 git clone https://github.com/njanjahier/real-estate-price-prediction.git
 cd real-estate-price-prediction
 
-### 2️⃣ Install dependencies
+2️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 
 ### 3️⃣ Run the local server
+
+```bash
+
 uvicorn api.main:app --reload
 
 Server will be available at http://127.0.0.1:8000.
+
+---
+
 
 ## 💻 API Usage
 
@@ -91,10 +97,15 @@ docker run -p 8000:8000 real-estate-prediction
 
 Server will be available at http://localhost:8000.
 
+---
+
 ## 🌐 Live Deployment
 
 The project is deployed and available online at:
 https://real-estate-price-prediction-2-ar18.onrender.com/
+
+---
+
 
 ## 🔍 How the project solves a real-world problem
 
